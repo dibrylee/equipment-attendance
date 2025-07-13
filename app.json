@@ -8,9 +8,11 @@
     "scheme": "equipmentattendance",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
+
     "ios": {
       "supportsTablet": true
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -22,15 +24,25 @@
       ],
       "package": "com.magsacay077.equipmentattendance"
     },
-    "splash": {
-  "backgroundColor": "#ffffff"
-}
 
-    ,
+    "splash": {
+      "image": "./assets/splashscreen_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
     "extra": {
       "eas": {
         "projectId": "df1b8181-d4a6-4995-9df6-8e2d3b46b00a"
       }
+    },
+
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+
+    "updates": {
+      "url": "https://u.expo.dev/df1b8181-d4a6-4995-9df6-8e2d3b46b00a"
     }
   }
 }
