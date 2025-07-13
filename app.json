@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "equipment-attendance",
+    "slug": "equipment-attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "equipmentattendance",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "package": "com.magsacay077.equipmentattendance"
+    },
+    "splash": {
+  "backgroundColor": "#ffffff"
+}
+
+    ,
+    "extra": {
+      "eas": {
+        "projectId": "df1b8181-d4a6-4995-9df6-8e2d3b46b00a"
+      }
+    }
+  }
+}
